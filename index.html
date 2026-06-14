@@ -14,6 +14,11 @@
 <nav>
   <div class="nav-id"><a href="index.html">sergiouribe<span>.</span>dev</a></div>
   <div class="nav-links">
+    <div class="lang-toggle" role="group" aria-label="Idioma / Language">
+      <button class="lang-btn active" data-lang="es">ES</button>
+      <span aria-hidden="true">|</span>
+      <button class="lang-btn" data-lang="en">EN</button>
+    </div>
     <a href="https://github.com/Suribef" target="_blank" class="nav-icon" aria-label="GitHub">
       <svg viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
     </a>
@@ -31,7 +36,7 @@
   <!-- HERO -->
   <section id="hero">
     <div class="hero-main">
-      <p class="hero-label">Frontend &amp; Fullstack Developer · CDMX</p>
+      <p class="hero-label" data-i18n="hero.label">Frontend &amp; Fullstack Developer · CDMX</p>
       <h1 class="hero-name">
         SERGIO
         <span class="line2">URIBE<span class="cursor">_</span></span>
@@ -41,16 +46,16 @@
     <div class="hero-meta">
       <div class="hero-meta-inner">
         <div class="hero-meta-item"><strong>IPN ESIME Culhuacán</strong></div>
-        <div class="hero-meta-item"><strong>Ing. Computación</strong></div>
-        <div class="hero-meta-item"><strong>Dic. 2026</strong></div>
+        <div class="hero-meta-item" data-i18n="hero.meta.carrera"><strong>Ing. Computación</strong></div>
+        <div class="hero-meta-item" data-i18n="hero.meta.graduacion"><strong>Dic. 2026</strong></div>
       </div>
     </div>
 
     <div class="hero-bottom">
-      <p class="hero-quote">"Innovar con lo actual, crear para el futuro<br>y aprender de cada voz."</p>
+      <p class="hero-quote" data-i18n="hero.quote">"Innovar con lo actual, crear para el futuro<br>y aprender de cada voz."</p>
       <div class="hero-ctas">
-        <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
-        <a href="#contacto" class="btn btn-ghost">Contacto</a>
+        <a href="#proyectos" class="btn btn-primary" data-i18n="hero.btn.projects">Ver proyectos</a>
+        <a href="#contacto" class="btn btn-ghost" data-i18n="hero.btn.contact">Contacto</a>
       </div>
     </div>
   </section>
@@ -59,20 +64,20 @@
 
   <!-- SOBRE MÍ -->
   <section id="sobre">
-    <p class="eyebrow reveal">Sobre mí</p>
-    <h2 class="section-h2 reveal">Quién soy<br><em>y qué hago</em></h2>
+    <p class="eyebrow reveal" data-i18n="sobre.eyebrow">Sobre mí</p>
+    <h2 class="section-h2 reveal" data-i18n="sobre.h2">Quién soy<br><em>y qué hago</em></h2>
     <div class="sobre-grid">
       <div class="sobre-text reveal">
-        <p>Soy estudiante de último año  de <strong>Ingeniería en Computación</strong> en IPN ESIME Culhuacán, una carrera donde el <strong>software</strong> y el <strong>hardware</strong> se construyen juntos. Eso me dio una base poco común: entiendo circuitos y microcontroladores tanto como bases de datos y arquitecturas web.</p>
-        <p>Me especializo en desarrollo <strong>Frontend y Fullstack</strong>, pero llego a esos proyectos con una visión más completa: sé lo que pasa en las capas de abajo. He trabajado en compiladores, programación de bajo nivel, electrónica y sistemas embebidos, he liderado equipos en proyectos académicos de mayor escala con objetivos claros, alcanzando metas y aprendiendo de los retos que han aparecido.</p>
-        <p><strong>Hoy desarrollo aplicaciones propias y busco mi primer rol profesional </strong>donde pueda construir productos técnicamente sólidos, bien pensados y fáciles de usar.</p>
+        <p data-i18n="sobre.p1">Soy estudiante de último año de <strong>Ingeniería en Computación</strong> en IPN ESIME Culhuacán, una carrera donde el <strong>software</strong> y el <strong>hardware</strong> se construyen juntos. Eso me dio una base poco común: entiendo circuitos y microcontroladores tanto como bases de datos y arquitecturas web.</p>
+        <p data-i18n="sobre.p2">Me especializo en desarrollo <strong>Frontend y Fullstack</strong>, pero llego a esos proyectos con una visión más completa: sé lo que pasa en las capas de abajo. He trabajado en compiladores, programación de bajo nivel, electrónica y sistemas embebidos, he liderado equipos en proyectos académicos de mayor escala con objetivos claros, alcanzando metas y aprendiendo de los retos que han aparecido.</p>
+        <p data-i18n="sobre.p3"><strong>Hoy desarrollo aplicaciones propias y busco mi primer rol profesional</strong> donde pueda construir productos técnicamente sólidos, bien pensados y fáciles de usar.</p>
     </div>
       <div class="sobre-facts reveal">
-        <div class="fact"><span class="fact-label">Institución</span><span class="fact-val">IPN ESIME Culhuacán</span></div>
-        <div class="fact"><span class="fact-label">Carrera</span><span class="fact-val">Ingeniería en Computación</span></div>
-        <div class="fact"><span class="fact-label">Graduación</span><span class="fact-val">Diciembre 2026</span></div>
-        <div class="fact"><span class="fact-label">Ubicación</span><span class="fact-val">Ciudad de México</span></div>
-        <div class="fact"><span class="fact-label">Buscando</span><span class="fact-val">Rol Frontend / Fullstack</span></div>
+        <div class="fact"><span class="fact-label" data-i18n="sobre.fact.label.institucion">Institución</span><span class="fact-val">IPN ESIME Culhuacán</span></div>
+        <div class="fact"><span class="fact-label" data-i18n="sobre.fact.label.carrera">Carrera</span><span class="fact-val" data-i18n="sobre.fact.val.carrera">Ingeniería en Computación</span></div>
+        <div class="fact"><span class="fact-label" data-i18n="sobre.fact.label.graduacion">Graduación</span><span class="fact-val" data-i18n="sobre.fact.val.graduacion">Diciembre 2026</span></div>
+        <div class="fact"><span class="fact-label" data-i18n="sobre.fact.label.ubicacion">Ubicación</span><span class="fact-val" data-i18n="sobre.fact.val.ubicacion">Ciudad de México</span></div>
+        <div class="fact"><span class="fact-label" data-i18n="sobre.fact.label.buscando">Buscando</span><span class="fact-val" data-i18n="sobre.fact.val.buscando">Rol Frontend / Fullstack</span></div>
       </div>
     </div>
   </section>
@@ -81,20 +86,20 @@
 
   <!-- PROYECTOS -->
   <section id="proyectos">
-    <p class="eyebrow reveal">Trabajo</p>
-    <h2 class="section-h2 reveal">Lo que<br><em>he construido</em></h2>
+    <p class="eyebrow reveal" data-i18n="proyectos.eyebrow">Trabajo</p>
+    <h2 class="section-h2 reveal" data-i18n="proyectos.h2">Lo que<br><em>he construido</em></h2>
     <div class="projects-grid">
 
       <!-- Card 1: top-left (wide) -->
       <div class="project-card reveal">
         <a href="https://github.com/Suribef/compilador-aritmetico">
-        <div class="project-status done">Completado</div>
-        <h3 class="project-name">Compilador para Expresiones Aritméticas</h3>
-        <p class="project-desc">Compilador funcional en C++ con análisis léxico, parser recursivo descendente, construcción de AST y generación de código ejecutable. Soporta precedencia de operadores y paréntesis anidados.</p>
+        <div class="project-status done" data-i18n="proyectos.p1.status">Completado</div>
+        <h3 class="project-name" data-i18n="proyectos.p1.name">Compilador para Expresiones Aritméticas</h3>
+        <p class="project-desc" data-i18n="proyectos.p1.desc">Compilador funcional en C++ con análisis léxico, parser recursivo descendente, construcción de AST y generación de código ejecutable. Soporta precedencia de operadores y paréntesis anidados.</p>
         <div class="project-chips">
           <span class="chip">C</span>
-          <span class="chip">Compiladores</span>
-          <span class="chip">Sistemas</span>
+          <span class="chip" data-i18n="chip.compiladores">Compiladores</span>
+          <span class="chip" data-i18n="chip.sistemas">Sistemas</span>
           <span class="chip">AST</span>
         </div>
         </a>
@@ -102,32 +107,32 @@
 
       <!-- Card 2: spans right column both rows -->
       <div class="project-card span-right reveal">
-        <div class="project-status done">Completado</div>
-        <h3 class="project-name">Sistema POS</h3>
-        <p class="project-desc">Coordinación de equipo multidisciplinario para diseño y documentación de un sistema de punto de venta. Gestión de requerimientos, modelado UML y comunicación entre perfiles técnicos y no técnicos.</p>
+        <div class="project-status done" data-i18n="proyectos.p2.status">Completado</div>
+        <h3 class="project-name" data-i18n="proyectos.p2.name">Sistema POS</h3>
+        <p class="project-desc" data-i18n="proyectos.p2.desc">Coordinación de equipo multidisciplinario para diseño y documentación de un sistema de punto de venta. Gestión de requerimientos, modelado UML y comunicación entre perfiles técnicos y no técnicos.</p>
         <div class="project-chips">
           <span class="chip">UML</span>
-          <span class="chip">Liderazgo</span>
-          <span class="chip">Gestión</span>
+          <span class="chip" data-i18n="chip.liderazgo">Liderazgo</span>
+          <span class="chip" data-i18n="chip.gestion">Gestión</span>
         </div>
       </div>
 
       <!-- Card 3: bottom-left -->
       <div class="project-card span-left reveal" style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:start;">
         <div>
-          <div class="project-status wip">En desarrollo</div>
-          <h3 class="project-name">Sistema de Aprobación de Créditos</h3>
-          <p class="project-desc">Automatización del flujo de revisión y aprobación de perfiles para préstamos, con niveles de acceso, modelos de riesgo y gestión de obligados.</p>
+          <div class="project-status wip" data-i18n="proyectos.p3a.status">En desarrollo</div>
+          <h3 class="project-name" data-i18n="proyectos.p3a.name">Sistema de Aprobación de Créditos</h3>
+          <p class="project-desc" data-i18n="proyectos.p3a.desc">Automatización del flujo de revisión y aprobación de perfiles para préstamos, con niveles de acceso, modelos de riesgo y gestión de obligados.</p>
           <div class="project-chips">
-            <span class="chip">Automatización</span>
+            <span class="chip" data-i18n="chip.automatizacion">Automatización</span>
             <span class="chip">FullStack</span>
           </div>
         </div>
-        
+
         <div>
-          <div class="project-status wip">En desarrollo</div>
-          <h3 class="project-name">Vida Fitness</h3>
-          <p class="project-desc">Plataforma para gimnasios con registro de rutinas, dietas, comunidad y coaches en tiempo real.</p>
+          <div class="project-status wip" data-i18n="proyectos.p3b.status">En desarrollo</div>
+          <h3 class="project-name" data-i18n="proyectos.p3b.name">Vida Fitness</h3>
+          <p class="project-desc" data-i18n="proyectos.p3b.desc">Plataforma para gimnasios con registro de rutinas, dietas, comunidad y coaches en tiempo real.</p>
           <div class="project-chips">
             <span class="chip">React</span>
             <span class="chip">FullStack</span>
@@ -142,8 +147,8 @@
 
   <!-- STACK -->
   <section id="stack">
-    <p class="eyebrow reveal">Tecnologías</p>
-    <h2 class="section-h2 reveal">Stack<br><em>técnico</em></h2>
+    <p class="eyebrow reveal" data-i18n="stack.eyebrow">Tecnologías</p>
+    <h2 class="section-h2 reveal" data-i18n="stack.h2">Stack<br><em>técnico</em></h2>
     <div class="stack-grid reveal">
       <div class="stack-col">
         <p class="stack-col-label">Frontend</p>
@@ -154,19 +159,19 @@
         </ul>
       </div>
       <div class="stack-col">
-        <p class="stack-col-label">Sistemas</p>
+        <p class="stack-col-label" data-i18n="stack.col.sistemas">Sistemas</p>
         <ul class="stack-items">
           <li class="stack-item">C / C++</li>
-          <li class="stack-item">Ensamblador x86</li>
-          <li class="stack-item">Arduino / Embebidos</li>
+          <li class="stack-item" data-i18n="stack.item.ensamblador">Ensamblador x86</li>
+          <li class="stack-item" data-i18n="stack.item.embebidos">Arduino / Embebidos</li>
         </ul>
       </div>
       <div class="stack-col">
-        <p class="stack-col-label">Metodología</p>
+        <p class="stack-col-label" data-i18n="stack.col.metodologia">Metodología</p>
         <ul class="stack-items">
-          <li class="stack-item">UML &amp; Análisis</li>
+          <li class="stack-item" data-i18n="stack.item.uml">UML &amp; Análisis</li>
           <li class="stack-item">Git / GitHub</li>
-          <li class="stack-item">Algoritmos &amp; SO</li>
+          <li class="stack-item" data-i18n="stack.item.algoritmos">Algoritmos &amp; SO</li>
         </ul>
       </div>
     </div>
@@ -176,37 +181,37 @@
 
   <!-- ACTUALMENTE -->
   <section id="ahora">
-    <p class="eyebrow reveal">Status</p>
-    <h2 class="section-h2 reveal">Ahora<br><em>mismo</em></h2>
+    <p class="eyebrow reveal" data-i18n="ahora.eyebrow">Status</p>
+    <h2 class="section-h2 reveal" data-i18n="ahora.h2">Ahora<br><em>mismo</em></h2>
     <div class="terminal reveal">
       <div class="terminal-bar">
         <div class="dot dot-r"></div>
         <div class="dot dot-y"></div>
         <div class="dot dot-g"></div>
-        <span class="terminal-title">sergiouribe@dev ~ status --current</span>
+        <span class="terminal-title" data-i18n="ahora.terminal.title">sergiouribe@dev ~ status --current</span>
       </div>
       <div class="terminal-body">
         <div class="t-group">
-          <div class="t-line"><span class="prompt">→</span><span class="cmd">formacion</span></div>
-          <div class="t-line indent"><span class="prompt">·</span><span class="out">Último año · IPN ESIME Culhuacán</span></div>
-          <div class="t-line indent"><span class="prompt">·</span><span class="out">Graduación estimada: Diciembre 2026</span></div>
+          <div class="t-line"><span class="prompt">→</span><span class="cmd" data-i18n="ahora.cmd.formacion">formacion</span></div>
+          <div class="t-line indent"><span class="prompt">·</span><span class="out" data-i18n="ahora.out.ultimo-ano">Último año · IPN ESIME Culhuacán</span></div>
+          <div class="t-line indent"><span class="prompt">·</span><span class="out" data-i18n="ahora.out.graduacion">Graduación estimada: Diciembre 2026</span></div>
         </div>
         <div class="t-group">
-          <div class="t-line"><span class="prompt">→</span><span class="cmd">aprendiendo</span></div>
+          <div class="t-line"><span class="prompt">→</span><span class="cmd" data-i18n="ahora.cmd.aprendiendo">aprendiendo</span></div>
           <div class="t-line indent"><span class="prompt">·</span><span class="out">TypeScript &amp; Next.js</span></div>
-          <div class="t-line indent"><span class="prompt">·</span><span class="out">Organización de proyectos de software</span></div>
-          <div class="t-line indent"><span class="prompt">·</span><span class="out">Docker & containerización</span></div>
-          <div class="t-line indent"><span class="prompt">·</span><span class="out">Testing con Jest</span></div>
-          <div class="t-line indent"><span class="prompt">·</span><span class="out">SQL avanzado & diseño de BD</span></div>
+          <div class="t-line indent"><span class="prompt">·</span><span class="out" data-i18n="ahora.out.org-proyectos">Organización de proyectos de software</span></div>
+          <div class="t-line indent"><span class="prompt">·</span><span class="out" data-i18n="ahora.out.docker">Docker &amp; containerización</span></div>
+          <div class="t-line indent"><span class="prompt">·</span><span class="out" data-i18n="ahora.out.testing">Testing con Jest</span></div>
+          <div class="t-line indent"><span class="prompt">·</span><span class="out" data-i18n="ahora.out.sql">SQL avanzado &amp; diseño de BD</span></div>
         </div>
         <div class="t-group">
-          <div class="t-line"><span class="prompt">→</span><span class="cmd">desarrollando</span></div>
-          <div class="t-line indent"><span class="prompt">·</span><span class="out">Sistema de Aprobación de Créditos</span></div>
+          <div class="t-line"><span class="prompt">→</span><span class="cmd" data-i18n="ahora.cmd.desarrollando">desarrollando</span></div>
+          <div class="t-line indent"><span class="prompt">·</span><span class="out" data-i18n="ahora.out.sistema-creditos">Sistema de Aprobación de Créditos</span></div>
           <div class="t-line indent"><span class="prompt">·</span><span class="out">Vida Fitness</span></div>
         </div>
         <div class="t-group">
-          <div class="t-line"><span class="prompt">→</span><span class="cmd">buscando</span></div>
-          <div class="t-line indent"><span class="prompt">·</span><span class="out" style="color:var(--accent);">Rol como Frontend o Fullstack Developer</span></div>
+          <div class="t-line"><span class="prompt">→</span><span class="cmd" data-i18n="ahora.cmd.buscando">buscando</span></div>
+          <div class="t-line indent"><span class="prompt">·</span><span class="out" data-i18n="ahora.out.rol" style="color:var(--accent);">Rol como Frontend o Fullstack Developer</span></div>
         </div>
       </div>
     </div>
@@ -216,11 +221,11 @@
 
   <!-- CONTACTO -->
   <section id="contacto">
-    <p class="eyebrow reveal">Contacto</p>
-    <h2 class="section-h2 reveal">Hablemos<br><em>directamente</em></h2>
+    <p class="eyebrow reveal" data-i18n="contacto.eyebrow">Contacto</p>
+    <h2 class="section-h2 reveal" data-i18n="contacto.h2">Hablemos<br><em>directamente</em></h2>
     <div class="contacto-inner">
       <div class="contacto-text reveal">
-        <p>Si tienes un proyecto interesante, una oportunidad para alguien que aprende rápido, o simplemente quieres hablar de tecnología, con gusto te escucho. Estoy abierto a nuevas conversaciones.</p>
+        <p data-i18n="contacto.text">Si tienes un proyecto interesante, una oportunidad para alguien que aprende rápido, o simplemente quieres hablar de tecnología, con gusto te escucho. Estoy abierto a nuevas conversaciones.</p>
       </div>
       <div class="contacto-links reveal">
         <a href="mailto:suribef2200@gmail.com" class="contact-link">
@@ -243,7 +248,7 @@
 
 <footer>
   <span class="footer-copy">© 2026 Sergio Uribe Frenkel <span>·</span> CDMX</span>
-  <span class="footer-built">Ing. Computación · IPN · Dic 2026</span>
+  <span class="footer-built" data-i18n="footer.built">Ing. Computación · IPN · Dic 2026</span>
 </footer>
 
 <script src="script.js"></script>
