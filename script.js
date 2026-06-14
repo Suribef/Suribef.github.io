@@ -4,6 +4,8 @@ const T = {
   'hero.quote':       { es: '"Innovar con lo actual, crear para el futuro<br>y aprender de cada voz."', en: '"Innovate with what exists, build for the future,<br>and learn from every voice."' },
   'hero.btn.projects':{ es: 'Ver proyectos', en: 'View projects' },
   'hero.btn.contact': { es: 'Contacto',      en: 'Contact' },
+  'hero.meta.carrera':    { es: '<strong>Ing. Computación</strong>',  en: '<strong>Comp. Engineering</strong>' },
+  'hero.meta.graduacion': { es: '<strong>Dic. 2026</strong>',         en: '<strong>Dec. 2026</strong>' },
 
   'sobre.eyebrow': { es: 'Sobre mí',   en: 'About me' },
   'sobre.h2':      { es: 'Quién soy<br><em>y qué hago</em>', en: 'Who I am<br><em>and what I do</em>' },
@@ -16,77 +18,97 @@ const T = {
     en: 'I specialize in <strong>Frontend and Fullstack</strong> development, but I approach those projects with a fuller picture: I know what happens in the layers below. I have worked on compilers, low-level programming, electronics and embedded systems, and led teams on large-scale academic projects with clear goals.'
   },
   'sobre.p3': {
-    es: '<strong>Hoy desarrollo aplicaciones propias y busco mi primer rol profesional</strong> donde pueda construir productos técnicamente sólidos, bien pensados y fáciles de usar.',
-    en: '<strong>Today I build my own applications and am looking for my first professional role</strong> where I can ship technically solid, well-designed, and easy-to-use products.'
+    es: '<strong>Hoy construyo y entrego aplicaciones fullstack para clientes reales</strong> — sistemas POS, sitios web con panel de administración y herramientas de análisis de datos. Busco unas prácticas SDE o un rol junior donde pueda contribuir técnicamente desde el primer día.',
+    en: '<strong>Today I build and ship full-stack applications for real clients</strong> — POS systems, business websites with admin panels, and data analysis tools. I\'m looking for an SDE internship or junior role where I can contribute technically from day one.'
   },
   'sobre.fact.label.institucion': { es: 'Institución',  en: 'Institution' },
   'sobre.fact.label.carrera':     { es: 'Carrera',      en: 'Degree' },
   'sobre.fact.label.graduacion':  { es: 'Graduación',   en: 'Graduation' },
   'sobre.fact.label.ubicacion':   { es: 'Ubicación',    en: 'Location' },
   'sobre.fact.label.buscando':    { es: 'Buscando',     en: 'Looking for' },
-  'sobre.fact.val.carrera':      { es: 'Ingeniería en Computación', en: 'Computer Engineering' },
-  'sobre.fact.val.graduacion':   { es: 'Diciembre 2026',            en: 'December 2026' },
-  'sobre.fact.val.ubicacion':    { es: 'Ciudad de México',          en: 'Mexico City' },
-  'sobre.fact.val.buscando':     { es: 'Rol Frontend / Fullstack',  en: 'Frontend / Fullstack Role' },
-  'hero.meta.carrera':           { es: '<strong>Ing. Computación</strong>', en: '<strong>Comp. Engineering</strong>' },
-  'hero.meta.graduacion':        { es: '<strong>Dic. 2026</strong>',        en: '<strong>Dec. 2026</strong>' },
+  'sobre.fact.val.carrera':     { es: 'Ingeniería en Computación',              en: 'Computer Engineering' },
+  'sobre.fact.val.graduacion':  { es: 'Diciembre 2026',                         en: 'December 2026' },
+  'sobre.fact.val.ubicacion':   { es: 'Ciudad de México',                       en: 'Mexico City' },
+  'sobre.fact.val.buscando':    { es: 'Prácticas SDE · Junior Full-Stack / Frontend', en: 'SDE Intern · Junior Full-Stack / Frontend' },
 
-  'proyectos.eyebrow': { es: 'Trabajo',                      en: 'Work' },
+  'proyectos.eyebrow': { es: 'Trabajo', en: 'Work' },
   'proyectos.h2':      { es: 'Lo que<br><em>he construido</em>', en: 'What<br><em>I\'ve built</em>' },
-  'proyectos.p1.name': { es: 'Compilador para Expresiones Aritméticas', en: 'Arithmetic Expression Compiler' },
-  'proyectos.p2.name': { es: 'Sistema POS',                             en: 'POS System' },
-  'proyectos.p3a.name':{ es: 'Sistema de Aprobación de Créditos',       en: 'Credit Approval System' },
-  'proyectos.p3b.name':{ es: 'Vida Fitness',                            en: 'Vida Fitness' },
-  'proyectos.p1.status': { es: 'Completado',    en: 'Completed' },
-  'proyectos.p2.status': { es: 'Completado',    en: 'Completed' },
-  'proyectos.p3a.status':{ es: 'En desarrollo', en: 'In development' },
-  'proyectos.p3b.status':{ es: 'En desarrollo', en: 'In development' },
+
+  'proyectos.p1.status': { es: 'Completado', en: 'Completed' },
+  'proyectos.p1.name':   { es: 'PetPoint — Sistema de Punto de Venta', en: 'PetPoint — Point of Sale System' },
   'proyectos.p1.desc': {
-    es: 'Compilador funcional en C++ con análisis léxico, parser recursivo descendente, construcción de AST y generación de código ejecutable. Soporta precedencia de operadores y paréntesis anidados.',
-    en: 'Functional compiler in C++ with lexical analysis, recursive descent parser, AST construction, and executable code generation. Supports operator precedence and nested parentheses.'
+    es: 'Lideré un equipo de 5 personas a través del SDLC completo. Soporta 10+ usuarios simultáneos con sincronización en tiempo real vía Supabase. Incluye esquema relacional, diagramas UML y plan de pruebas completo.',
+    en: 'Led a 5-person team through the full SDLC. Supports 10+ concurrent users with real-time sync via Supabase. Includes relational DB schema, UML diagrams, and a complete test plan.'
   },
+
+  'proyectos.p2.status': { es: 'Completado', en: 'Completed' },
+  'proyectos.p2.name':   { es: 'Don Shampoo — POS Multi-Sucursal', en: 'Don Shampoo — Multi-Branch POS' },
   'proyectos.p2.desc': {
-    es: 'Coordinación de equipo multidisciplinario para diseño y documentación de un sistema de punto de venta. Gestión de requerimientos, modelado UML y comunicación entre perfiles técnicos y no técnicos.',
-    en: 'Led a multidisciplinary team to design and document a point-of-sale system. Requirements management, UML modeling, and communication between technical and non-technical stakeholders.'
+    es: 'POS completo con arquitectura multi-sucursal para inventario centralizado y gestión de ventas entre ubicaciones. Soporta 10+ usuarios simultáneos con actualizaciones en tiempo real.',
+    en: 'Full POS with multi-branch architecture for centralized inventory and sales management across locations. Supports 10+ concurrent users with real-time updates.'
   },
-  'proyectos.p3a.desc': {
-    es: 'Automatización del flujo de revisión y aprobación de perfiles para préstamos, con niveles de acceso, modelos de riesgo y gestión de obligados.',
-    en: 'Automation of the review and approval flow for loan profiles, with role-based access levels, risk models, and co-signer management.'
-  },
-  'proyectos.p3b.desc': {
-    es: 'Plataforma para gimnasios con registro de rutinas, dietas, comunidad y coaches en tiempo real.',
-    en: 'Gym platform with workout and diet tracking, community features, coaches, and real-time equipment availability.'
-  },
-  'chip.compiladores':  { es: 'Compiladores',  en: 'Compilers' },
-  'chip.sistemas':      { es: 'Sistemas',      en: 'Systems' },
-  'chip.liderazgo':     { es: 'Liderazgo',     en: 'Leadership' },
-  'chip.gestion':       { es: 'Gestión',       en: 'Management' },
-  'chip.automatizacion':{ es: 'Automatización',en: 'Automation' },
 
-  'stack.eyebrow':        { es: 'Tecnologías',  en: 'Technologies' },
+  'proyectos.p3.status': { es: 'Completado', en: 'Completed' },
+  'proyectos.p3.name':   { es: 'Dashboard de Análisis de Métricas', en: 'Data Metrics Analysis Dashboard' },
+  'proyectos.p3.desc': {
+    es: 'Herramienta frontend que procesa ~40,000 registros por sesión. Incluye deduplicación, segmentación multi-perfil, filtros por fecha y un motor de esquema adaptativo que detecta columnas extra en archivos xlsx variables. Sin backend.',
+    en: 'Frontend-only tool processing ~40,000 records per session. Features deduplication, multi-profile segmentation, date/parameter filtering, and an adaptive schema engine that detects extra columns in variable xlsx files — no backend required.'
+  },
+
+  'proyectos.p4.status': { es: 'Completado', en: 'Completed' },
+  'proyectos.p4.name':   { es: 'Compilador para Expresiones Aritméticas', en: 'Arithmetic Expression Compiler' },
+  'proyectos.p4.desc': {
+    es: 'Pipeline completo: análisis léxico, parser recursivo descendente, construcción de AST y generación de instrucciones ejecutables. Aplica conceptos de bajo nivel: gestión de memoria, call stack, registros x86.',
+    en: 'Complete compiler pipeline: lexical analysis, recursive descent parser, AST construction, and executable instruction generation. Applies low-level concepts: memory management, call stack, x86 registers.'
+  },
+
+  'proyectos.p5.status': { es: 'Completado', en: 'Completed' },
+  'proyectos.p5.name':   { es: 'Dolce y Chile &amp; Argos CMVet — Sitios Web', en: 'Dolce y Chile &amp; Argos CMVet — Client Websites' },
+  'proyectos.p5.desc': {
+    es: 'Dos proyectos freelance entregados para clientes reales. Cada uno incluye un panel de administración y base de datos en Supabase para que los dueños gestionen contenido de forma independiente. Ciclo completo: requerimientos, entrega y soporte post-lanzamiento.',
+    en: 'Two freelance projects delivered for real clients. Each includes a custom admin panel and Supabase-backed database so owners can manage content independently. Full client engagement: requirements, delivery, post-launch support.'
+  },
+
+  'proyectos.p6.status': { es: 'En desarrollo', en: 'In development' },
+  'proyectos.p6.name':   { es: 'ArmyForce — Rutinas de Gimnasio', en: 'ArmyForce — Gym Routine Tracker' },
+  'proyectos.p6.desc': {
+    es: 'Aplicación web y móvil para un gimnasio: gestión de rutinas de entrenamiento, historial de sesiones y seguimiento de progreso por usuario. Administración multi-cuenta.',
+    en: 'Web and mobile application for a gym to manage member training routines, session logs, and progress tracking. Multi-user account management.'
+  },
+
+  'chip.compiladores':   { es: 'Compiladores',       en: 'Compilers' },
+  'chip.sistemas':       { es: 'Sistemas',            en: 'Systems' },
+  'chip.liderazgo':      { es: 'Liderazgo',           en: 'Leadership' },
+  'chip.gestion':        { es: 'Gestión',             en: 'Management' },
+  'chip.automatizacion': { es: 'Automatización',      en: 'Automation' },
+  'chip.visualizacion':  { es: 'Visualización de Datos', en: 'Data Visualization' },
+
+  'stack.eyebrow':        { es: 'Tecnologías',    en: 'Technologies' },
   'stack.h2':             { es: 'Stack<br><em>técnico</em>', en: 'Tech<br><em>stack</em>' },
-  'stack.col.sistemas':   { es: 'Sistemas',     en: 'Systems' },
-  'stack.col.metodologia':{ es: 'Metodología',  en: 'Methodology' },
-  'stack.item.ensamblador':{ es: 'Ensamblador x86',    en: 'x86 Assembly' },
-  'stack.item.embebidos':  { es: 'Arduino / Embebidos', en: 'Arduino / Embedded' },
-  'stack.item.uml':        { es: 'UML &amp; Análisis',  en: 'UML &amp; Analysis' },
-  'stack.item.algoritmos': { es: 'Algoritmos &amp; SO', en: 'Algorithms &amp; OS' },
+  'stack.col.sistemas':   { es: 'Sistemas &amp; Datos', en: 'Systems &amp; Data' },
+  'stack.col.metodologia':{ es: 'Herramientas',    en: 'Tools &amp; Methods' },
+  'stack.item.ensamblador':{ es: 'Ensamblador x86',     en: 'x86 Assembly' },
+  'stack.item.uml':        { es: 'UML &amp; Documentación', en: 'UML &amp; Documentation' },
 
-  'ahora.eyebrow':        { es: 'Status',   en: 'Status' },
-  'ahora.h2':             { es: 'Ahora<br><em>mismo</em>', en: 'Right<br><em>now</em>' },
-  'ahora.terminal.title': { es: 'sergiouribe@dev ~ status --current', en: 'sergiouribe@dev ~ status --current' },
-  'ahora.cmd.formacion':   { es: 'formacion',   en: 'education' },
-  'ahora.cmd.aprendiendo': { es: 'aprendiendo', en: 'learning' },
-  'ahora.cmd.desarrollando':{ es: 'desarrollando', en: 'building' },
-  'ahora.cmd.buscando':    { es: 'buscando',    en: 'looking-for' },
-  'ahora.out.ultimo-ano':  { es: 'Último año · IPN ESIME Culhuacán',    en: 'Final year · IPN ESIME Culhuacán' },
-  'ahora.out.graduacion':  { es: 'Graduación estimada: Diciembre 2026', en: 'Estimated graduation: December 2026' },
-  'ahora.out.org-proyectos':{ es: 'Organización de proyectos de software', en: 'Software project organization' },
-  'ahora.out.docker':      { es: 'Docker &amp; containerización', en: 'Docker &amp; containerization' },
-  'ahora.out.testing':     { es: 'Testing con Jest', en: 'Testing with Jest' },
-  'ahora.out.sql':         { es: 'SQL avanzado &amp; diseño de BD', en: 'Advanced SQL &amp; DB design' },
-  'ahora.out.sistema-creditos':{ es: 'Sistema de Aprobación de Créditos', en: 'Credit Approval System' },
-  'ahora.out.rol':         { es: 'Rol como Frontend o Fullstack Developer', en: 'Frontend or Fullstack Developer role' },
+  'ahora.eyebrow':          { es: 'Status',   en: 'Status' },
+  'ahora.h2':               { es: 'Ahora<br><em>mismo</em>', en: 'Right<br><em>now</em>' },
+  'ahora.terminal.title':   { es: 'sergiouribe@dev ~ status --current', en: 'sergiouribe@dev ~ status --current' },
+  'ahora.cmd.formacion':    { es: 'formacion',    en: 'education' },
+  'ahora.cmd.aprendiendo':  { es: 'aprendiendo',  en: 'learning' },
+  'ahora.cmd.desarrollando':{ es: 'desarrollando',en: 'building' },
+  'ahora.cmd.certificando': { es: 'certificando', en: 'certifying' },
+  'ahora.cmd.buscando':     { es: 'buscando',     en: 'looking-for' },
+  'ahora.out.ultimo-ano':   { es: 'Último año · IPN ESIME Culhuacán',    en: 'Final year · IPN ESIME Culhuacán' },
+  'ahora.out.graduacion':   { es: 'Graduación estimada: Diciembre 2026', en: 'Estimated graduation: December 2026' },
+  'ahora.out.aws':          { es: 'AWS Cloud (Cloud Practitioner)',       en: 'AWS Cloud (Cloud Practitioner)' },
+  'ahora.out.docker':       { es: 'Docker &amp; containerización',        en: 'Docker &amp; containerization' },
+  'ahora.out.testing':      { es: 'Testing &amp; CI/CD',                  en: 'Testing &amp; CI/CD' },
+  'ahora.out.armyforce':    { es: 'ArmyForce (rutinas de gimnasio)',      en: 'ArmyForce (gym routine tracker)' },
+  'ahora.out.portafolio':   { es: 'Documentación de proyectos del portafolio', en: 'Portfolio project documentation' },
+  'ahora.out.cert-aws':     { es: 'AWS Cloud Practitioner — En Progreso',        en: 'AWS Cloud Practitioner — In Progress' },
+  'ahora.out.cert-gpm':     { es: 'Google Project Management — En Progreso',     en: 'Google Project Management — In Progress' },
+  'ahora.out.cert-swe':     { es: 'Software Engineering Certificate — En Progreso', en: 'Software Engineering Certificate — In Progress' },
+  'ahora.out.rol':          { es: 'Prácticas SDE o Junior Full-Stack / Frontend', en: 'SDE Intern or Junior Full-Stack / Frontend role' },
 
   'contacto.eyebrow': { es: 'Contacto', en: 'Contact' },
   'contacto.h2':      { es: 'Hablemos<br><em>directamente</em>', en: 'Let\'s talk<br><em>directly</em>' },
