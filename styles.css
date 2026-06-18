@@ -238,6 +238,21 @@ section{
 .fact-val{font-size:.9rem;color:var(--muted-md);}
 
 /* ── PROYECTOS ── */
+
+.project-card {
+  cursor: pointer;
+}
+
+a.project-card {
+  text-decoration: none;
+  color: inherit;
+  display: block; 
+}
+
+a.project-card:hover {
+  opacity: 0.9;
+}
+
 #proyectos{border-top:.5px solid var(--border);}
 .projects-grid{
   display:grid;
