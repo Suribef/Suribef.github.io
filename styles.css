@@ -239,18 +239,10 @@ section{
 
 /* ── PROYECTOS ── */
 
-.project-card {
-  cursor: pointer;
-}
-
 a.project-card {
   text-decoration: none;
   color: inherit;
-  display: block; 
-}
-
-a.project-card:hover {
-  opacity: 0.9;
+  display: block;
 }
 
 #proyectos{border-top:.5px solid var(--border);}
