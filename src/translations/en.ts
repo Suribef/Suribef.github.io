@@ -34,6 +34,7 @@ export const en = {
         metrics: 'v0.1.2 · 9 components · 118 tests · 13.25 kB gzip · 0 deps',
         storybook: 'https://suribef.github.io/suri-ui',
         npm: 'https://www.npmjs.com/package/@suribef/suri-ui',
+        case_study: 'https://suribef.github.io/suri-ui-case-study/',
       },
       {
         num: '02',
