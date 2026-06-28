@@ -3,7 +3,6 @@ import { ThemeProvider } from './contexts/ThemeContext'
 import { LangProvider } from './contexts/LangContext'
 import Nav from './components/Nav/Nav'
 import Home from './pages/Home'
-import CaseStudyPetPoint from './pages/CaseStudyPetPoint'
 
 export default function App() {
   return (
@@ -13,7 +12,6 @@ export default function App() {
           <Nav />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/case-study/petpoint" element={<CaseStudyPetPoint />} />
           </Routes>
         </HashRouter>
       </LangProvider>
